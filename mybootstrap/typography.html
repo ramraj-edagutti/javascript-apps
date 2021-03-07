@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Bootstrap 4 Learning</title>
+
+  <!-- Bootstrap CSS 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.css" />
+
+  <title>Hello, world!</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>h1 Bootstrap heading (2.5rem = 40px)</h1>
+    <h2>h2 Bootstrap heading (2rem = 32px)</h2>
+    <h3>h3 Bootstrap heading (1.75rem = 28px)</h3>
+    <h4>h4 Bootstrap heading (1.5rem = 24px)</h4>
+    <h5>h5 Bootstrap heading (1.25rem = 20px)</h5>
+    <h6>h6 Bootstrap heading (1rem = 16px)</h6>
+    <hr>
+    <p class="h1">h1. Bootstrap heading in paragraph</p>
+    <p class="h2">h2. Bootstrap heading in paragraph</p>
+    <p class="h3">h3. Bootstrap heading in paragraph</p>
+    <p class="h4">h4. Bootstrap heading in paragraph</p>
+    <p class="h5">h5. Bootstrap heading in paragraph</p>
+    <p class="h6">h6. Bootstrap heading in paragraph</p>
+  </div>
+
+  <hr>
+
+  <div class="container">
+    <h1>Lighter, Secondary Text</h1>
+    <p>The small element is used to create a lighter, secondary text in any heading:
+    <p>
+    <h1>h1 heading <small>secondary text</small></h1>
+    <h2>h2 heading <small>secondary text</small></h2>
+    <h3>h3 heading <small>secondary text</small></h3>
+    <h4>h4 heading <small>secondary text</small></h4>
+    <h5>h5 heading <small>secondary text</small></h5>
+    <h6>h6 heading <small>secondary text</small></h6>
+    <h3>
+      Fancy display heading
+      <small class="text-muted">With faded secondary text</small>
+    </h3>
+  </div>
+
+  <hr>
+
+  <div class="container">
+    <h1>Highlight Text</h1>
+    <p>Use the mark element to <mark>highlight</mark> text.</p>
+  </div>
+  <div class="container">
+    <h1>Abbreviations</h1>
+    <p>The abbr element is used to mark up an abbreviation or acronym:</p>
+    <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+    <p><abbr title="HyperText Markup Language" class="initialism">HTML</abbr></p>
+  </div>
+
+  <div class="container">
+    <h1>Blockquotes</h1>
+    <p>The blockquote element is used to present content from another source:</p>
+    <blockquote class="blockquote">
+      <p>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF
+        works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million
+        globally.</p>
+      <footer class="blockquote-footer">From WWF's website</footer>
+    </blockquote>
+    <blockquote class="blockquote text-center">
+      <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+      <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+    </blockquote>
+  </div>
+
+  <div class="container">
+    <h1>Description Lists</h1>
+    <p>The dl element indicates a description list:</p>
+    <dl>
+      <dt>Coffee</dt>
+      <dd>- black hot drink</dd>
+      <dt>Milk</dt>
+      <dd>- white cold drink</dd>
+    </dl>
+  </div>
+
+  <div class="container">
+    <h1>Custom Description Lists</h1>
+    <dl class="row">
+      <dt class="col-sm-3">Description lists</dt>
+      <dd class="col-sm-9">A description list is perfect for defining terms.</dd>
+    
+      <dt class="col-sm-3">Euismod</dt>
+      <dd class="col-sm-9">
+        <p>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</p>
+        <p>Donec id elit non mi porta gravida at eget metus.</p>
+      </dd>
+    
+      <dt class="col-sm-3">Malesuada porta</dt>
+      <dd class="col-sm-9">Etiam porta sem malesuada magna mollis euismod.</dd>
+    
+      <dt class="col-sm-3 text-truncate">Truncated term is truncated</dt>
+      <dd class="col-sm-9">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</dd>
+    
+      <dt class="col-sm-3">Nesting</dt>
+      <dd class="col-sm-9">
+        <dl class="row">
+          <dt class="col-sm-4">Nested definition list</dt>
+          <dd class="col-sm-8">Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc.</dd>
+        </dl>
+      </dd>
+    </dl>
+  </div>
+
+  <div class="container">
+    <h1>Code Snippets</h1>
+    <p>Inline snippets of code should be embedded in the code element:</p>
+    <p>The following HTML elements: <code>span</code>, <code>section</code>, and <code>div</code> defines a section in a
+      document.</p>
+  </div>
+
+  <div class="container">
+    <h1>Keyboard Inputs</h1>
+    <p>To indicate input that is typically entered via the keyboard, use the kbd element:</p>
+    <p>Use <kbd>ctrl + p</kbd> to open the Print dialog box.</p>
+  </div>
+
+  <div class="container">
+    <h1>Multiple Code Lines</h1>
+    <p>For multiple lines of code, use the pre element:</p>
+    <pre>
+    Text in a pre element
+    is displayed in a fixed-width
+    font, and it preserves
+    both      spaces and
+    line breaks.
+    </pre>
+  </div>
+
+  <div class="container">
+    <h2>Typography</h2>
+    <p>Use the .lead class to make a paragraph "stand out":</p>
+    <p class="lead">This paragraph stands out.</p>
+    <p>This is a regular paragraph.</p>
+  </div>
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper)
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+     -->
+  <!--  Option 2: jQuery, Popper.js, and Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
